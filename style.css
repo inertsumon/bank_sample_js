@@ -1,0 +1,50 @@
+.center {
+  text-align: center;
+  color: brown;
+  margin-top: 50px;
+}
+.show-bal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+.balance {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  padding: 1rem 6rem;
+}
+.withdraw {
+  background-color: coral;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  padding: 1rem 6rem;
+}
+.deposit {
+  background-color: rgb(185, 67, 170);
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  padding: 1rem 6rem;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  margin-top: 40px;
+}
+.deposit-area {
+  background-color: rgb(185, 67, 170);
+  text-align: center;
+  margin: auto;
+  padding: 1rem 6rem;
+}
+.withdraw-area {
+  background-color: coral;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 6rem;
+}
